@@ -1,0 +1,81 @@
+body { 
+    font-family: Arial, sans-serif;
+    margin: 0; 
+    padding: 0; 
+    height: 100vh; 
+    display: flex; 
+    flex-direction: column; 
+}
+
+.container-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.container-buttons select {
+    flex: 1;
+    margin-right: 10px;
+    max-width: 350px;
+}
+.container-buttons button {
+    flex-shrink: 0;
+}
+
+.container { 
+    display: flex; 
+    flex: 1; 
+    gap: 20px; 
+    padding: 10px; 
+    box-sizing: border-box; 
+}
+.panel { 
+    flex: 1; 
+    display: flex; 
+    flex-direction: column; 
+}
+.json-content {
+    flex: 1; 
+    width: 100%; 
+    resize: none; 
+    font-family: monospace;
+    font-size: larger;
+    padding: 10px; 
+    box-sizing: border-box;
+    white-space: pre-wrap;
+    overflow-y: auto; /* Allows scrolling */
+    border: 1px solid #ccc;
+    background-color: #f4f4f4;
+}
+.label {
+    background-color: #ffecb3;
+    padding: 2px;
+}
+
+.description {
+    background-color: #c8e6c9;
+    padding: 2px;
+}
+.message {
+    background-color: #ffcdd2;
+    padding: 2px;
+}
+
+.comment {
+    background-color: #d1c4e9;
+    padding: 2px;
+}
+
+.rumour {
+    background-color: #ffe0b2;
+    padding: 2px;
+}
+
+.fragmentsecret {
+    background-color: #f8bbd0;
+    padding: 2px;
+}
+
+h1, label { 
+    margin: 10px; 
+}

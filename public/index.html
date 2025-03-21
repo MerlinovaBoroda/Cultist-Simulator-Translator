@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cultist Simulator Translator 🇺🇦</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="scripts.js"></script>
+</head>
+<body>
+    <h1>Cultist Simulator Translator 🇺🇦</h1>
+    <label for="fileSelect">Select a JSON file:</label>
+    
+    <div class="container-buttons">
+        <select id="fileSelect"></select>
+        
+        <button id="saveButton">Save Changes</button>
+    </div>
+    
+
+    <div class="container">
+        <div class="panel">
+            <h3>Original (Read-Only)</h3>
+            <div id="originalContent" class="json-content" contenteditable="false"></div>
+        </div>
+        <div class="panel">
+            <h3>Ukrainian (Editable)</h3>
+            <div id="ukrainianContent" class="json-content" contenteditable="true"></div>
+        </div>
+    </div>
+</body>
+</html>
