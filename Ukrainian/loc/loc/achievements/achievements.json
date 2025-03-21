@@ -15,31 +15,31 @@
     {
       "isCategory": true,
       "id": "A_CATEGORY_EVERAFTER",
-      "label": "Ever After",
+      "label": "Навіки потому",
       "iconUnlocked": "rose"
     },
     {
       "isCategory": true,
       "id": "A_CATEGORY_PRIEST",
-      "label": "Priest",
+      "label": "Ксьондз",
       "iconUnlocked": "tool"
     },
     {
       "isCategory": true,
       "id": "A_CATEGORY_GHOUL",
-      "label": "Ghoul",
+      "label": "Гуль",
       "iconUnlocked": "remembrancemarks"
     },
     {
       "isCategory": true,
       "id": "A_CATEGORY_EXILE",
-      "label": "Exile",
+      "label": "Вигнання",
       "iconUnlocked": "foe"
     },
     {
       "isCategory": true,
       "id": "A_CATEGORY_MODS",
-      "label": "Mod Content",
+      "label": "Вміст модифікації",
       "iconUnlocked": "forge"
     },
     {
@@ -48,8 +48,8 @@
       "iconUnlocked": "lunatic",
       "singleDescription": true,
       "validateOnStorefront": true,
-      "label": "Under An Appreciable Mental Strain",
-      "descriptionunlocked": "I no longer have any idea what is real, and what is not."
+      "label": "Під значним ментальним навантаженням",
+      "descriptionunlocked": "Я більше не маю жодного уявлення про те, що є правдою, а що вигадкою"
     },
     {
       "id": "A_ENDING_WINTERSACRIFICE",
@@ -57,8 +57,8 @@
       "iconUnlocked": "poppy",
       "singleDescription": true,
       "validateOnStorefront": true,
-      "label": "The Clock Striketh Twelve",
-      "descriptionunlocked": "I honoured my agreement, but I did not have a friend."
+      "label": "Годинник б’є дванадцять",
+      "descriptionunlocked": "Я дотримався домовленості, але не мав друга"
     },
     {
       "id": "A_ENDING_WORKVICTORY",
@@ -66,8 +66,8 @@
       "iconUnlocked": "reason",
       "singleDescription": true,
       "validateOnStorefront": true,
-      "label": "I'm Not... *Unhappy*",
-      "descriptionunlocked": "I worked. I slaved. I lived a sort of life."
+      "label": "Я не... *Нещасний*",
+      "descriptionunlocked": "Я працював. Я був рабом. Я прожив щось схоже на життя."
     },
     {
       "id": "A_ENDING_WORKVICTORYB",
@@ -75,8 +75,8 @@
       "iconUnlocked": "gloverandgloverjuniorjob",
       "singleDescription": true,
       "validateOnStorefront": true,
-      "label": "Corner Office",
-      "descriptionunlocked": "I will be honoured by my peers. And then, one day, I'll die."
+      "label": "Кутовий офіс",
+      "descriptionunlocked": "Мене вшанують мої ровесники. І тоді, одного дня, я помру.."
     },
     {
       "id": "A_ENDING_DEATHOFTHEBODY",
@@ -84,8 +84,8 @@
       "iconUnlocked": "heart",
       "singleDescription": true,
       "validateOnStorefront": true,
-      "label": "Where Will They Find Me?",
-      "descriptionunlocked": "My body died. Perhaps my spirit entered the Mansus."
+      "label": "Де Вони Мене Знайдуть?",
+      "descriptionunlocked": "Моє тіло мертве. Можливо, мій дух увійшов у Мансус."
     },
     {
       "id": "A_ENDING_DESPAIRENDING",
@@ -93,8 +93,8 @@
       "iconUnlocked": "ritefollowerconsumeinfluence",
       "singleDescription": true,
       "validateOnStorefront": true,
-      "label": "No Worst, There Is None",
-      "descriptionunlocked": "Despair, the wolf that devours thought, devoured me."
+      "label": "Найгіршого немає, його не існує",
+      "descriptionunlocked": "Відчай, вовк, що пожирає думки, поглинув мене."
     },
     {
       "id": "A_ENDING_ARREST",
@@ -102,8 +102,8 @@
       "iconUnlocked": "defaulthunter",
       "singleDescription": true,
       "validateOnStorefront": true,
-      "label": "Bars Across the Sun",
-      "descriptionunlocked": "My trial was contentious. But thanks to the Inspector, here I am."
+      "label": "Ґрати по той бік сонця",
+      "descriptionunlocked": "Мій суд був суперечливим. Але завдяки Інспектору я тут."
     },
     {
       "id": "A_SUMMON_GENERIC",
@@ -111,8 +111,8 @@
       "iconUnlocked": "ritefollowerconsumeingredient",
       "singleDescription": true,
       "validateOnStorefront": true,
-      "label": "SUMMON ALIEN GODS",
-      "descriptionunlocked": "I conjured a creature from beyond the skin of the world."
+      "label": "ЗАКЛИКАЙТЕ ЧУЖИХ БОГІВ",
+      "descriptionunlocked": "Я прикликав створіння з іншого виміру."
     },
     {
       "id": "A_MANSUS_WOOD",
@@ -120,8 +120,8 @@
       "iconUnlocked": "waywood",
       "singleDescription": true,
       "validateOnStorefront": true,
-      "label": "In the Midst of my Life, in a Dark Wood",
-      "descriptionunlocked": "The Wood grows around the walls of the Mansus. As any student of Histories knows, the Mansus has no walls."
+      "label": "На середині мого життя, в Темному Лісі",
+      "descriptionunlocked": "Ліс росте навколо стін Мансусу. Як відомо кожному студенту-історику, Мансус не має стін."
     },
     {
       "id": "A_MANSUS_WHITEDOOR",
@@ -129,8 +129,8 @@
       "iconUnlocked": "waywhite",
       "singleDescription": true,
       "validateOnStorefront": true,
-      "label": "Speechless at Sunset",
-      "descriptionunlocked": "Speech may not pass the White Door, but I may."
+      "label": "Безмовний на заході сонця",
+      "descriptionunlocked": "Мова може не пройти повз Білі двері, але я можу."
     },
     {
       "id": "A_MANSUS_STAGDOOR",
@@ -138,8 +138,8 @@
       "iconUnlocked": "waystag_after",
       "singleDescription": true,
       "validateOnStorefront": true,
-      "label": "What Has It Got In Its Pocketses?",
-      "descriptionunlocked": "I have answered the riddle of the Stag Door, and am counted among the Know."
+      "label": "Що Воно Має В Своїх Кишенях??",
+      "descriptionunlocked": "Я розгадав загадку Оленячих Дверей, і мене зараховано до числа Знаючих."
     },
     {
       "id": "A_MANSUS_SPIDERDOOR",
@@ -147,8 +147,8 @@
       "iconUnlocked": "wayspider",
       "singleDescription": true,
       "validateOnStorefront": true,
-      "label": "Beaded with Blood",
-      "descriptionunlocked": "I have made the necessary sacrifice to enter the Mansus through the Spider Door."
+      "label": "Криваві Намистини",
+      "descriptionunlocked": "Я приніс необхідну жертву, щоб увійти в Мансус через Павучі Двері."
     },
     {
       "id": "A_MANSUS_PEACOCKDOOR",
@@ -156,8 +156,8 @@
       "iconUnlocked": "waypeacock",
       "singleDescription": true,
       "validateOnStorefront": true,
-      "label": "In the Glassgarden",
-      "descriptionunlocked": "It has pleased the Peacock Door to yield to my entry."
+      "label": "У Скляному Саду",
+      "descriptionunlocked": "Павичеві двері дозволили мені ввійти."
     },
     {
       "id": "A_ENDING_MINORFORGEVICTORY",
@@ -165,8 +165,8 @@
       "iconUnlocked": "ascensionpowerf",
       "singleDescription": true,
       "validateOnStorefront": true,
-      "label": "Hairless and Imperishable",
-      "descriptionunlocked": "I wrestled the Forge to victory. I will not grow old."
+      "label": "Безволосі та нетлінні",
+      "descriptionunlocked": "Я довів Кузню до перемоги. Можна навіки забути про старість."
     },
     {
       "id": "A_ENDING_MINORFORGEVICTORY_WITHRISEN",
@@ -174,8 +174,8 @@
       "iconUnlocked": "risen.forge",
       "singleDescription": true,
       "validateOnStorefront": true,
-      "label": "Hairless and Semi-Perishable",
-      "descriptionunlocked": "We wrestled the Forge to victory. We will not grow old."
+      "label": "Безволосі та нетлінні",
+      "descriptionunlocked": "Ми довели Кузню до перемоги. Можемо навіки забути про старість."
     },
     {
       "id": "A_ENDING_MINORGRAILVICTORY",
@@ -183,8 +183,8 @@
       "iconUnlocked": "ascensionsensationf",
       "singleDescription": true,
       "validateOnStorefront": true,
-      "label": "Smooth Without, Red Within",
-      "descriptionunlocked": "I gorged on the fruits of the sticky Grail. I will not grow old."
+      "label": "Гладкий Ззовні, Червоний Всередині",
+      "descriptionunlocked": "Я ласував плодами липкого Грааля. Можна навіки забути про старість."
     },
     {
       "id": "A_ENDING_MINORGRAILVICTORY_WITHRISEN",
@@ -192,8 +192,8 @@
       "iconUnlocked": "risen.grail",
       "singleDescription": true,
       "validateOnStorefront": true,
-      "label": "Smooth Without, Dead Within",
-      "descriptionunlocked": "We gorged on the fruits of the sticky Grail. We will not grow old."
+      "label": "Гладкий Ззовні, Червоний Всередині",
+      "descriptionunlocked": "Ми ласували плодами липкого Грааля. Можемо навіки забути про старість."
     },
     {
       "id": "A_ENDING_MINORLANTERNVICTORY",
@@ -201,8 +201,8 @@
       "iconUnlocked": "ascensionenlightenmentf",
       "singleDescription": true,
       "validateOnStorefront": true,
-      "label": "Thine be the Glory",
-      "descriptionunlocked": "I walked behind the Watchman. I will not grow old."
+      "label": "Нехай буде слава Твоя",
+      "descriptionunlocked": "Я йшов за Вартовим. Можна забути про старість."
     },
     {
       "id": "A_ENDING_MINORLANTERNVICTORY_WITHRISEN",
@@ -210,8 +210,8 @@
       "iconUnlocked": "risen.lantern",
       "singleDescription": true,
       "validateOnStorefront": true,
-      "label": "Thine be the Ghoul",
-      "descriptionunlocked": "We walked behind the Watchman. We will not grow old."
+      "label": "Хай живе Упир",
+      "descriptionunlocked": "Ми йшли за Вартовим. Можемо забути про старість."
     },
     {
       "id": "A_ENDING_MAJORFORGEVICTORY",
@@ -219,8 +219,8 @@
       "iconUnlocked": "apostleforge.pillar1",
       "singleDescription": true,
       "validateOnStorefront": true,
-      "label": "Breaking Dawn",
-      "descriptionunlocked": "I was consumed, but another I rose higher"
+      "label": "Переломний світанок",
+      "descriptionunlocked": "Мене поглинули, але інший Я піднявся вище"
     },
     {
       "id": "A_ENDING_MAJORGRAILVICTORY",
@@ -228,8 +228,8 @@
       "iconUnlocked": "apostlegrail.pillar1",
       "singleDescription": true,
       "validateOnStorefront": true,
-      "label": "I, the Feast",
-      "descriptionunlocked": "I was devoured, but another I rose higher"
+      "label": "Я, Бенкет",
+      "descriptionunlocked": "Мене поглинули, але інший Я піднявся вище"
     },
     {
       "id": "A_ENDING_MAJORLANTERNVICTORY",
@@ -237,8 +237,8 @@
       "iconUnlocked": "apostlelantern.pillar1",
       "singleDescription": true,
       "validateOnStorefront": true,
-      "label": "The Third Way",
-      "descriptionunlocked": "I was lost to another I's glory"
+      "label": "Третій Шлях",
+      "descriptionunlocked": "Я втратив себе у славі іншого Я"
     },
     {
       "id": "A_MANSUS_TRICUSPIDGATE",
@@ -247,8 +247,8 @@
       "singleDescription": true,
       "validateOnStorefront": true,
       "isHidden": true,
-      "label": "The Sun Before Me",
-      "descriptionunlocked": "The Sun has his course, and so do I."
+      "label": "Сонце Переді Мною",
+      "descriptionunlocked": "Сонце має свій шлях. Що ж, я також."
     },
     {
       "id": "A_PROMOTED_EXALTED_LANTERN",
@@ -256,8 +256,8 @@
       "iconUnlocked": "fragmentlanterng",
       "singleDescription": true,
       "validateOnStorefront": true,
-      "label": "A Seer",
-      "descriptionunlocked": "I cast a believer onto the Lantern's path."
+      "label": "Провидець",
+      "descriptionunlocked": "Я кинув віруючого на Шлях Ліхтаря."
     },
     {
       "id": "A_PROMOTED_EXALTED_FORGE",
@@ -265,8 +265,8 @@
       "iconUnlocked": "fragmentforgeg",
       "singleDescription": true,
       "validateOnStorefront": true,
-      "label": "A Reshaper",
-      "descriptionunlocked": "I shaped a mighty believer from the fires of the Forge."
+      "label": "Майстер Зміни Форми",
+      "descriptionunlocked": "Я сформував могутнього послідовника з вогню Кузні."
     },
     {
       "id": "A_PROMOTED_EXALTED_EDGE",
@@ -274,8 +274,8 @@
       "iconUnlocked": "fragmentedgeg",
       "singleDescription": true,
       "validateOnStorefront": true,
-      "label": "An Assassin",
-      "descriptionunlocked": "I sharpened a believer to their deadliest Edge."
+      "label": "Убивця",
+      "descriptionunlocked": "Я загартував послідовника до найсмертоноснішої межі."
     },
     {
       "id": "A_PROMOTED_EXALTED_WINTER",
@@ -283,7 +283,7 @@
       "iconUnlocked": "fragmentwinterg",
       "singleDescription": true,
       "validateOnStorefront": true,
-      "label": "The Rest Is Silence",
+      "label": "Решта - Лише Тиша",
       "descriptionunlocked": "....................."
     },
     {
@@ -292,8 +292,8 @@
       "iconUnlocked": "fragmentheartg",
       "singleDescription": true,
       "validateOnStorefront": true,
-      "label": "A Tarantellist",
-      "descriptionunlocked": "I drew a believer to the endless Dance of the Heart."
+      "label": "Майстер Тарантели",
+      "descriptionunlocked": "Я залучив послідовника до нескінченного Танцю Серця."
     },
     {
       "id": "A_PROMOTED_EXALTED_GRAIL",
@@ -301,8 +301,8 @@
       "iconUnlocked": "fragmentgrailg",
       "singleDescription": true,
       "validateOnStorefront": true,
-      "label": "A Cyprian",
-      "descriptionunlocked": "I pledged a believer to the Feast of the Grail."
+      "label": "Кіпріот",
+      "descriptionunlocked": "Я присягнув послідовника на Бенкет Грааля"
     },
     {
       "id": "A_PROMOTED_EXALTED_MOTH",
@@ -310,8 +310,8 @@
       "iconUnlocked": "fragmentmothg",
       "singleDescription": true,
       "validateOnStorefront": true,
-      "label": "A Skintwister",
-      "descriptionunlocked": "I led a believer to the Wood of the Moth."
+      "label": "Тілоплут",
+      "descriptionunlocked": "Я скерував послідовника до Лісу Молі"
     },
     {
       "id": "A_PROMOTED_EXALTED_KNOCK",
@@ -319,8 +319,8 @@
       "iconUnlocked": "fragmentknockg",
       "singleDescription": true,
       "validateOnStorefront": true,
-      "label": "A Key",
-      "descriptionunlocked": "I forged a believer into a true instrument of Knock."
+      "label": "Ключ",
+      "descriptionunlocked": "Я викував з послідовника справжнє знаряддя Стуку."
     },
     {
       "id": "A_CULT_LANTERN",
@@ -328,8 +328,8 @@
       "iconUnlocked": "cultlantern_1",
       "singleDescription": true,
       "validateOnStorefront": true,
-      "label": "Mirror of Glory",
-      "descriptionunlocked": "I dedicated myself to the understanding of the Light that leaks from a fiercer place."
+      "label": "Дзеркало Слави",
+      "descriptionunlocked": "Я присвятив себе розумінню Світла, яке витікає з більш запеклого місця."
     },
     {
       "id": "A_CULT_FORGE",
@@ -337,8 +337,8 @@
       "iconUnlocked": "cultforge_1",
       "singleDescription": true,
       "validateOnStorefront": true,
-      "label": "Unflinching Order",
-      "descriptionunlocked": "I dedicated myself to the fire that changes and remakes."
+      "label": "Непохитний Порядок",
+      "descriptionunlocked": "Я присвятив себе вогню, який змінює і переробляє."
     },
     {
       "id": "A_CULT_EDGE",
@@ -346,8 +346,8 @@
       "iconUnlocked": "cultedge_1",
       "singleDescription": true,
       "validateOnStorefront": true,
-      "label": "Church of the Bright Edge",
-      "descriptionunlocked": "I dedicated myself to the Hours of struggle and conquest."
+      "label": "Церква Яскравого Краю",
+      "descriptionunlocked": "Я присвятив себе Годинам боротьби і завоювання."
     },
     {
       "id": "A_CULT_WINTER",
@@ -355,8 +355,8 @@
       "iconUnlocked": "cultwinter_1",
       "singleDescription": true,
       "validateOnStorefront": true,
-      "label": "Children of Silence",
-      "descriptionunlocked": "I dedicated myself to the silence that comes and the cold that ends."
+      "label": "Дитина Тиші",
+      "descriptionunlocked": "Я присвятив себе тиші, що приходить, і холоду, що йде."
     },
     {
       "id": "A_CULT_HEART",
@@ -364,8 +364,8 @@
       "iconUnlocked": "cultheart_1",
       "singleDescription": true,
       "validateOnStorefront": true,
-      "label": "Temple Unceasing",
-      "descriptionunlocked": "I dedicated myself to the drumbeat which can never end."
+      "label": "Храм Невпинності",
+      "descriptionunlocked": "Я присвятив себе барабанному бою, якому не судилось закінчитися."
     },
     {
       "id": "A_CULT_GRAIL",
@@ -373,8 +373,8 @@
       "iconUnlocked": "cultgrail_1",
       "singleDescription": true,
       "validateOnStorefront": true,
-      "label": "Order of the Bloody Cup",
-      "descriptionunlocked": "I dedicated myself to the mysteries of birth, blood and appetite."
+      "label": "Орден Кривавої Чаші",
+      "descriptionunlocked": "Я присвятив себе таємницям народження, крові та апетиту."
     },
     {
       "id": "A_CULT_MOTH",
@@ -382,8 +382,8 @@
       "iconUnlocked": "cultmoth_1",
       "singleDescription": true,
       "validateOnStorefront": true,
-      "label": "Wildwood Club",
-      "descriptionunlocked": "I dedicated myself to chaos, and the unexpected Hours."
+      "label": "Клуб Дикого Лісу",
+      "descriptionunlocked": "Я присвятив себе хаосу і непередбачуваним Годинам."
     },
     {
       "id": "A_CULT_KNOCK",
@@ -391,7 +391,7 @@
       "iconUnlocked": "cultknock_1",
       "singleDescription": true,
       "validateOnStorefront": true,
-      "label": "Society of the Holy Wound",
+      "label": "Товариство Пресвятої Рани",
       "descriptionunlocked": "I dedicated myself to the Hours which open doors."
     },
     {
