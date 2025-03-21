@@ -1,5 +1,6 @@
 const express = require('express');
 const fs = require('fs');
+const archiver = require('archiver');
 const path = require('path');
 const app = express();
 const PORT = 3000;
@@ -9,7 +10,6 @@ const UKRAINIAN_DIR = path.join(__dirname, 'Ukrainian');
 
 app.use(express.json());
 app.use(express.static('public'));
-app.use('/Original', express.static(path.join(__dirname, 'Original')));
 
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'index.html'));
@@ -88,6 +88,35 @@ app.post('/update', (req, res) => {
         console.error("Error writing file:", error);
         res.status(500).json({ error: 'Failed to write file' });
     }
+});
+
+app.get('/download-folder', (req, res) => {
+    const folderPath = path.join(__dirname, 'Ukrainian');
+    const output = fs.createWriteStream(path.join(__dirname, 'Ukrainian.zip'));
+
+    const archive = archiver('zip', {
+        zlib: { level: 9 }
+    });
+
+    archive.pipe(output);
+    archive.directory(folderPath, false);
+    archive.finalize();
+
+    output.on('close', () => {
+        res.download(path.join(__dirname, 'Ukrainian.zip'), 'Ukrainian.zip', (err) => {
+            if (err) {
+                console.error('Download error:', err);
+                res.status(500).send({ error: 'Error during download' });
+            } else {
+                fs.unlinkSync(path.join(__dirname, 'Ukrainian.zip'));
+            }
+        });
+    });
+
+    archive.on('error', (err) => {
+        console.error("Error creating archive:", error);
+        res.status(500).send({ error: err.message });
+    });
 });
 
 app.listen(PORT, () => {

@@ -8,15 +8,20 @@
     <script defer src="scripts.js"></script>
 </head>
 <body>
-    <h1>Cultist Simulator Translator 🇺🇦</h1>
-    <label for="fileSelect">Select a JSON file:</label>
-    
-    <div class="container-buttons">
-        <select id="fileSelect"></select>
+    <header>
+        <div class="container-buttons">
+            <h1>Cultist Simulator Translator 🇺🇦</h1>
+            <button id="downloadButton">Download Ukrainian Folder</button>
+        </div>
         
-        <button id="saveButton">Save Changes</button>
-    </div>
-    
+        <label for="fileSelect">Select a JSON file:</label>
+        
+        <div class="container-buttons">
+            <select id="fileSelect"></select>   
+            
+            <button id="saveButton">Save Changes</button>
+        </div>
+    </header>
 
     <div class="container">
         <div class="panel">
@@ -28,5 +33,7 @@
             <div id="ukrainianContent" class="json-content" contenteditable="true"></div>
         </div>
     </div>
+
+    
 </body>
 </html>
