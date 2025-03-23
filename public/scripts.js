@@ -76,8 +76,8 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     // Download Ukrainian localization folder
-    downloadButton.addEventListener("click", () => {
-        window.location.href = "/download-folder";
-    });
+    // downloadButton.addEventListener("click", () => {
+    //     window.location.href = "/download-folder";
+    // });
 });
 
