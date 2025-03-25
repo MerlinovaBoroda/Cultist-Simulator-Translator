@@ -9,10 +9,8 @@ ukrainianContent.addEventListener("scroll", syncScroll);
 
 document.addEventListener("DOMContentLoaded", () => {
     const fileSelect = document.getElementById("fileSelect");
-    const originalContent = document.getElementById("originalContent");
     const ukrainianContent = document.getElementById("ukrainianContent");
     const saveButton = document.getElementById("saveButton");
-    const downloadButton = document.getElementById("downloadButton");
 
     // Fetch and populate file list
     fetch("/files")

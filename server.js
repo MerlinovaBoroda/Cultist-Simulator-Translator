@@ -8,9 +8,11 @@ const path = require('path');
 const app = express();
 const PORT = 3000;
 
-const dbx = new Dropbox({ accessToken: process.env.DROPBOX_ACCESS_TOKEN, fetch });
-// const dropboxFolderPath = '/CultistSimulatorTranslator/Ukrainian';
-// const localFolderPath  = path.join(__dirname, 'Download');
+const dbx = new Dropbox({ 
+    clientId: process.env.DROPBOX_APP_KEY,
+    clientSecret: process.env.DROPBOX_APP_SECRET,
+    refreshToken: process.env.DROPBOX_REFRESH_TOKEN
+  });
 
 app.use(express.json());
 app.use(express.static('public'));
@@ -110,6 +112,8 @@ app.post('/update', async (req, res) => {
     }
 });
 
+// const dropboxFolderPath = '/CultistSimulatorTranslator/Ukrainian';
+// const localFolderPath  = path.join(__dirname, 'Download');
 // app.get('/download-folder', (req, res) => {
 //     const folderPath = path.join(__dirname, 'Ukrainian');
 //     const output = fs.createWriteStream(path.join(__dirname, 'Ukrainian.zip'));
