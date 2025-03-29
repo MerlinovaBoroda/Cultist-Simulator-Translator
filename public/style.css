@@ -1,5 +1,7 @@
 body { 
     font-family: Arial, sans-serif;
+    background-color: #121212;  
+    color: #E0E0E0;  
     margin-top: 8em; 
     padding: 0; 
     height: 85vh; 
@@ -9,13 +11,19 @@ body {
 
 header {
     position: fixed;
-    background-color: #fff;
+    background-color: #1E1E1E; 
+    color: #E0E0E0; 
     top: 0;
     left: 0;
     width: 100%;
-    /* padding: 10px 0; */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
     z-index: 1000;
+    padding-bottom: 10px;
+}
+
+h1, label {
+    color: #E0E0E0;
+    margin: 10px;
 }
 
 .container-buttons {
@@ -24,13 +32,29 @@ header {
     align-items: center;
     padding: 10px;
 }
+
 .container-buttons select {
     flex: 1;
     margin-right: 10px;
     max-width: 350px;
+    background-color: #333;
+    color: #E0E0E0;
+    border: 1px solid #555;
+    padding: 5px;
 }
+
 .container-buttons button {
     flex-shrink: 0;
+    background-color: #333;  
+    color: #E0E0E0;
+    border: 1px solid #555;
+    padding: 8px 15px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.container-buttons button:hover {
+    background-color: #555;  
 }
 
 .container { 
@@ -39,15 +63,22 @@ header {
     gap: 20px; 
     padding: 10px; 
     box-sizing: border-box; 
+    margin-top: 10px;
 }
+
 .panel { 
     flex: 1; 
     display: flex; 
     flex-direction: column; 
+    padding: 10px;
+    border-radius: 5px;
 }
+
 .panel h3 { 
     text-align: center; 
+    color: #E0E0E0;
 }
+
 .json-content {
     flex: 1; 
     width: 100%; 
@@ -58,38 +89,37 @@ header {
     box-sizing: border-box;
     white-space: pre-wrap;
     overflow-y: auto; /* Allows scrolling */
-    border: 1px solid #ccc;
-    background-color: #f4f4f4;
+    border: 1px solid #333;
+    background-color: #222;  
+    color: #E0E0E0;
 }
+
 .label {
-    background-color: #ffecb3;
+    background-color: #665500;
     padding: 2px;
 }
 
 .description {
-    background-color: #c8e6c9;
+    background-color: #2E7D32;
     padding: 2px;
 }
+
 .message {
-    background-color: #ffcdd2;
+    background-color: #8B0000;
     padding: 2px;
 }
 
 .comment {
-    background-color: #d1c4e9;
+    background-color: #4B0082;
     padding: 2px;
 }
 
 .rumour {
-    background-color: #ffe0b2;
+    background-color: #D2691E;
     padding: 2px;
 }
 
 .fragmentsecret {
-    background-color: #f8bbd0;
+    background-color: #B03060;
     padding: 2px;
-}
-
-h1, label { 
-    margin: 10px; 
 }
